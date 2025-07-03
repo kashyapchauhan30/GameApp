@@ -9,7 +9,7 @@ import numpy as np
 import pickle
 
 # Load the trained model (update path as needed)
-model_path = r"D:\GameApp\gaming_model.sav"
+model_path = r"gaming_model.sav"
 loaded_model = pickle.load(open(model_path, 'rb'))
 
 # Prediction function
